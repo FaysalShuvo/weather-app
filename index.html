@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>weather-app</title>
+  </head>
+  <body>
+    <div class="container my-5 mx-auto">
+      <h1 class="  text-center my-4">Weather App</h1>
+      <form class="change-location my-4 text-center">
+        <label for="city">Enter a location: </label>
+        <input type="text" name="city" class="form-control p-y" />
+      </form>
+
+      <div class="card shadow-lg rounded d-none">
+        <img
+          src=""
+          alt="day or night"
+          class="time card-img-top"
+        />
+        <div class="icon bg-light mx-auto text-center">
+          <!-- icon -->
+          <img
+          src=""
+          alt="icon"
+          
+        />
+        </div>
+        <div class="  text-uppercase text-center details">
+          <h5 class="my-3">City name</h5>
+          <div class="my-3">Weather Condition</div>
+          <div class="display-4 my-4">
+            <span>temp</span>
+            <span>&deg;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
