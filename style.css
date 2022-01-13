@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+
+body {
+  background-color: #0ca678;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+.container {
+  max-width: 400px;
+}
